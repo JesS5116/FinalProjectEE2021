@@ -8049,12 +8049,12 @@ OS:WeatherFile,
   -6,                                     !- Time Zone {hr}
   1280,                                   !- Elevation {m}
   file:TemixcoRUOACST.epw,                !- Url
-  8AF0EDD4;                               !- Checksum
+  95E3A2E7;                               !- Checksum
 
 OS:Construction,
   {5cdbf466-866f-4476-bed5-272415b6a1d5}, !- Handle
   ASHRAE 189.1-2009 ExtWall Mass ClimateZone 7, !- Name
-  ,                                       !- Surface Rendering Name
+  {7a917b1c-95bb-4e7f-8719-17a772d3c87f}, !- Surface Rendering Name
   {f599e234-5bef-4b8b-a29e-b0e66ba90d1c}, !- Layer 1
   {86ce4850-8b71-4fc3-8156-58e01dd0d672}, !- Layer 2
   {139997b3-f812-4db0-bf69-d7f13ed976c1}, !- Layer 3
@@ -8069,4 +8069,11 @@ OS:StandardsInformation:Construction,
   ,                                       !- Perturbable Layer Type
   ,                                       !- Other Perturbable Layer Type
   ASHRAE 189.1-2009;                      !- Construction Standard
+
+OS:Rendering:Color,
+  {7a917b1c-95bb-4e7f-8719-17a772d3c87f}, !- Handle
+  Rendering Color 61,                     !- Name
+  255,                                    !- Rendering Red Value
+  99,                                     !- Rendering Green Value
+  71;                                     !- Rendering Blue Value
 
