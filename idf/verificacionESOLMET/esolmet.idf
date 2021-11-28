@@ -73,11 +73,11 @@ Site:Location,
 
 RunPeriod,
     Run Period 1,            !- Name
-    1,                       !- Begin Month
-    1,                       !- Begin Day of Month
+    3,                       !- Begin Month
+    5,                       !- Begin Day of Month
     2019,                    !- Begin Year
-    1,                       !- End Month
-    2,                       !- End Day of Month
+    3,                       !- End Month
+    5,                       !- End Day of Month
     2019,                    !- End Year
     Sunday,                  !- Day of Week for Start Day
     No,                      !- Use Weather File Holidays and Special Days
