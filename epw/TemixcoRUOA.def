@@ -20,7 +20,7 @@ InputFileType='CUSTOM'
 InFormat='DELIMITED'
 DataElements=Year,Month,Day,Hour,Minute,DryBulb,relhum,windspd,winddir,atmos pressure,glohorrad
 DataUnits=x,x,x,x,x,'C','%','m/s','degree','Pa','W h/m2'
-DataConversionFactors=1,1,1,1,1,1,1
+DataConversionFactors=1,1,1,1,1,100,1
 DelimiterChar=','
 /
 

@@ -1,0 +1,7 @@
+{
+   "created_at" : "20211128T170233Z",
+   "seed_file" : "../cubo3x3validacion.osm",
+   "steps" : [],
+   "updated_at" : "20211128T170811Z",
+   "weather_file" : "TemixcoRUOACST.epw"
+}
