@@ -76,8 +76,8 @@ RunPeriod,
     5,                       !- Begin Month
     3,                       !- Begin Day of Month
     2006,                    !- Begin Year
-    5,                       !- End Month
-    3,                       !- End Day of Month
+    6,                       !- End Month
+    25,                      !- End Day of Month
     2006,                    !- End Year
     Wednesday,               !- Day of Week for Start Day
     No,                      !- Use Weather File Holidays and Special Days
@@ -3866,6 +3866,19 @@ AirflowNetwork:MultiZone:Zone,
     Standard,                !- Single Sided Wind Pressure Coefficient Algorithm
     10;                      !- Facade Width {m}
 
+AirflowNetwork:MultiZone:Zone,
+    Thermal Zone: jorge,     !- Zone Name
+    NoVent,                  !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    Standard,                !- Single Sided Wind Pressure Coefficient Algorithm
+    10;                      !- Facade Width {m}
+
 
 !-   ===========  ALL OBJECTS IN CLASS: AIRFLOWNETWORK:MULTIZONE:SURFACE ===========
 
@@ -3971,6 +3984,133 @@ AirflowNetwork:MultiZone:Surface,
     PolygonHeight,           !- Equivalent Rectangle Method
     1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
 
+AirflowNetwork:MultiZone:Surface,
+    TVS_jorge,               !- Surface Name
+    Cracks,                  !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    TVN_jorge,               !- Surface Name
+    Cracks,                  !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    puerta_jorge,            !- Surface Name
+    Cracks,                  !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    aluminio_jorge,          !- Surface Name
+    Cracks,                  !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    VSAB_jorge,              !- Surface Name
+    Cracks,                  !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    VSAR_jorge,              !- Surface Name
+    Cracks,                  !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    VN_jorge,                !- Surface Name
+    Cracks,                  !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: AIRFLOWNETWORK:MULTIZONE:SURFACE:CRACK ===========
+
+AirflowNetwork:MultiZone:Surface:Crack,
+    Cracks,                  !- Name
+    0.5,                     !- Air Mass Flow Coefficient at Reference Conditions {kg/s}
+    0.65;                    !- Air Mass Flow Exponent {dimensionless}
+
 
 !-   ===========  ALL OBJECTS IN CLASS: AIRFLOWNETWORK:MULTIZONE:COMPONENT:DETAILEDOPENING ===========
 
@@ -4068,6 +4208,19 @@ Output:Table:SummaryReports,
 
 OutputControl:Table:Style,
     HTML;                    !- Column Separator
+
+
+!-   ===========  ALL OBJECTS IN CLASS: OUTPUT:VARIABLE ===========
+
+Output:Variable,
+    *,                       !- Key Value
+    Site Outdoor Air Drybulb Temperature,  !- Variable Name
+    Timestep;                !- Reporting Frequency
+
+Output:Variable,
+    Thermal Zone: jorge,     !- Key Value
+    Zone Mean Air Temperature,  !- Variable Name
+    Timestep;                !- Reporting Frequency
 
 
 !-   ===========  ALL OBJECTS IN CLASS: OUTPUT:SQLITE ===========
