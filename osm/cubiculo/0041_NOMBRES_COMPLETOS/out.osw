@@ -1,0 +1,21 @@
+{
+   "completed_at" : "20211207T174553Z",
+   "completed_status" : "Fail",
+   "created_at" : "20211125T213148Z",
+   "current_step" : 0,
+   "eplusout_err" : "Program Version,EnergyPlus, Version 9.2.0-921312fa1d, YMD=2021.12.07 11:45,\n   ** Warning ** CheckEnvironmentSpecifications: SimulationControl specified doing design day simulations, but no design environments specified.\n   **   ~~~   ** ...No design environment results produced. For these results, add appropriate SizingPeriod:* objects for your simulation.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS OFF DISCRETE\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON CONTINUOUS\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** GetHTSurfaceData: Surfaces with interface to Ground found but no \"Ground Temperatures\" were input.\n   **   ~~~   ** Found first in surface=SUELO_C1\n   **   ~~~   ** Defaults, constant throughout the year of (18.0) will be used.\n   ** Severe  ** FenestrationSurface:Detailed=\"TVS_C1\", Exterior boundary condition = Ground is not allowed with windows.\n   ** Severe  ** FenestrationSurface:Detailed=\"TVS_C2\", Exterior boundary condition = Ground is not allowed with windows.\n   ** Severe  ** FenestrationSurface:Detailed=\"VENTANA_BASE_SUR\", Exterior boundary condition = Ground is not allowed with windows.\n   **  Fatal  ** GetSurfaceData: Errors discovered, program terminates.\n   ...Summary of Errors that led to program termination:\n   ..... Reference severe error count=3\n   ..... Last severe error=FenestrationSurface:Detailed=\"VENTANA_BASE_SUR\", Exterior boundary condition = Ground is not allowed with windows.\n   ************* Warning:  Node connection errors not checked - most system input has not been read (see previous warning).\n   ************* Fatal error -- final processing.  Program exited before simulations began.  See previous error messages.\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Terminated--Fatal Error Detected. 4 Warning; 3 Severe Errors; Elapsed Time=00hr 00min  0.87sec\n",
+   "file_paths" : [
+      "C:/Users/verei/AppData/Local/Temp/OpenStudioApp.s17628/resources/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "32046587",
+   "seed_file" : "../0041_NOMBRES_COMPLETOS.osm",
+   "started_at" : "20211207T174550Z",
+   "steps" : [],
+   "updated_at" : "20211207T174553Z",
+   "weather_file" : "esolmetruoaCST.epw"
+}

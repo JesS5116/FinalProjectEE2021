@@ -1,0 +1,7 @@
+{
+   "created_at" : "20211125T213148Z",
+   "seed_file" : "../0046f_ThermalZones.osm",
+   "steps" : [],
+   "updated_at" : "20211208T004452Z",
+   "weather_file" : "esolmetruoaCST.epw"
+}

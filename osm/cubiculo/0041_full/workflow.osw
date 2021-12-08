@@ -1,0 +1,7 @@
+{
+   "created_at" : "20211125T213148Z",
+   "seed_file" : "../0041_full.osm",
+   "steps" : [],
+   "updated_at" : "20211207T205451Z",
+   "weather_file" : "esolmetruoaCST.epw"
+}
