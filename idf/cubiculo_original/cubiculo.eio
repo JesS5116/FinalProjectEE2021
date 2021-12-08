@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.08 13:58
+Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.08 15:22
 ! <Version>, Version ID
  Version, 9.5
 ! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
@@ -70,9 +70,17 @@ Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.
  Zone Internal Gains Nominal, THERMAL ZONE: C1,13.08,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
  Zone Internal Gains Nominal, THERMAL ZONE: C2,21.93,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
  Zone Internal Gains Nominal, THERMAL ZONE: C2 1,13.08,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
- Zone Internal Gains Nominal, THERMAL ZONE: JORGE,13.08,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
+ Zone Internal Gains Nominal, THERMAL ZONE: JORGE,13.08,0.0,N/A,0.000,0.000,41.155,0.000,0.000,0.000,0.000,41.155,No
  Zone Internal Gains Nominal, THERMAL ZONE: TECHADA_C1,21.95,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
  Zone Internal Gains Nominal, THERMAL ZONE: TECHADA_JORGE,21.98,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
+! <ElectricEquipment Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
+ ElectricEquipment Internal Gains Nominal, IMAC,LAPMAC,THERMAL ZONE: JORGE,13.08,0.0,166.000,12.686,N/A,0.000,0.200,0.000,0.800,General,0.000,166.000
+ ElectricEquipment Internal Gains Nominal, IMPRESORA,HPLASER,THERMAL ZONE: JORGE,13.08,0.0,7.000,0.535,N/A,0.000,0.100,0.000,0.900,General,0.000,7.000
+ ElectricEquipment Internal Gains Nominal, TELEFONO,TELEPHONE,THERMAL ZONE: JORGE,13.08,0.0,1.500,0.115,N/A,0.000,1.000E-002,0.000,0.990,General,1.500,1.500
+ ElectricEquipment Internal Gains Nominal, MONITORDELL,DELL,THERMAL ZONE: JORGE,13.08,0.0,40.000,3.057,N/A,0.000,0.350,0.000,0.650,General,0.000,40.000
+ ElectricEquipment Internal Gains Nominal, CPU,CPUG,THERMAL ZONE: JORGE,13.08,0.0,294.000,22.469,N/A,0.000,0.100,0.000,0.900,General,0.000,294.000
+ ElectricEquipment Internal Gains Nominal, AGILENT,AGILENT,THERMAL ZONE: JORGE,13.08,0.0,25.000,1.911,N/A,0.000,0.000,0.000,1.000,General,0.000,25.000
+ ElectricEquipment Internal Gains Nominal, REGULADOR,REGULADORSTEREN,THERMAL ZONE: JORGE,13.08,0.0,5.000,0.382,N/A,0.000,1.000E-002,0.000,0.990,General,5.000,5.000
 ! <Shadowing/Sun Position Calculations Annual Simulations>, Shading Calculation Method, Shading Calculation Update Frequency Method, Shading Calculation Update Frequency {days}, Maximum Figures in Shadow Overlap Calculations {}, Polygon Clipping Algorithm, Pixel Counting Resolution, Sky Diffuse Modeling Algorithm, Output External Shading Calculation Results, Disable Self-Shading Within Shading Zone Groups, Disable Self-Shading From Shading Zone Groups to Other Zones
 Shadowing/Sun Position Calculations Annual Simulations,PolygonClipping,Periodic,20,15000,SutherlandHodgman,512,SimpleSkyDiffuseModeling,No,No,No
 ! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
@@ -99,12 +107,12 @@ Environment,RUN PERIOD 1,WeatherFileRunPeriod,05/03/2006,06/25/2006,Wednesday,54
 Environment:Daylight Saving,No,RunPeriod Object
 Environment:WarmupDays,  3
 ! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
- Warmup Convergence Information,THERMAL ZONE: C1,RunPeriod: RUN PERIOD 1,6.1437992745E-002,3.9818975826E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,THERMAL ZONE: C2,RunPeriod: RUN PERIOD 1,0.2973939779,0.2928502883,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,THERMAL ZONE: C2 1,RunPeriod: RUN PERIOD 1,7.0474736197E-002,4.0686871648E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,THERMAL ZONE: JORGE,RunPeriod: RUN PERIOD 1,0.3613782470,0.3715908505,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,THERMAL ZONE: TECHADA_C1,RunPeriod: RUN PERIOD 1,0.3087443004,0.3058171757,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,THERMAL ZONE: TECHADA_JORGE,RunPeriod: RUN PERIOD 1,0.3112215908,0.3066691417,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: C1,RunPeriod: RUN PERIOD 1,6.1439867130E-002,4.1621452218E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: C2,RunPeriod: RUN PERIOD 1,5.1663480210E-002,3.5700479956E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: C2 1,RunPeriod: RUN PERIOD 1,7.0620287728E-002,4.0857786416E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: JORGE,RunPeriod: RUN PERIOD 1,0.1610632346,0.2013723474,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: TECHADA_C1,RunPeriod: RUN PERIOD 1,4.9236966982E-002,3.4498418083E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: TECHADA_JORGE,RunPeriod: RUN PERIOD 1,0.3097308371,0.3116446406,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 ! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
 Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
 End of Data
