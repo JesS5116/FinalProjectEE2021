@@ -16,8 +16,8 @@
  numTableEntry=        1920
  sizeCompSizeTableEntry=           0
  numCompSizeTableEntry=           0
- NumOfRVariable=        6082
- NumOfRVariable(Total)=        6082
+ NumOfRVariable=        6111
+ NumOfRVariable(Total)=        6111
  NumOfRVariable(Actual)=          15
  NumOfRVariable(Summed)=          15
  NumOfRVariable(Meter)=          15
