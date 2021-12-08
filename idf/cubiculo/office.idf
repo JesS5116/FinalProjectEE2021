@@ -3673,6 +3673,118 @@ Shading:Building:Detailed,
     4.52151763202866;        !- Vertex 4 Z-coordinate {m}
 
 
+!-   ===========  ALL OBJECTS IN CLASS: AIRFLOWNETWORK:SIMULATIONCONTROL ===========
+
+AirflowNetwork:SimulationControl,
+    Techo,                   !- Name
+    MultizoneWithoutDistribution,  !- AirflowNetwork Control
+    SurfaceAverageCalculation,  !- Wind Pressure Coefficient Type
+    ,                        !- Height Selection for Local Wind Pressure Calculation
+    LowRise,                 !- Building Type
+    500,                     !- Maximum Number of Iterations {dimensionless}
+    ZeroNodePressures,       !- Initialization Type
+    0.0001,                  !- Relative Airflow Convergence Tolerance {dimensionless}
+    0.000001,                !- Absolute Airflow Convergence Tolerance {kg/s}
+    -.5,                     !- Convergence Acceleration Limit {dimensionless}
+    ,                        !- Azimuth Angle of Long Axis of Building {deg}
+    1,                       !- Ratio of Building Width Along Short Axis to Width Along Long Axis
+    No,                      !- Height Dependence of External Node Temperature
+    SkylineLU,               !- Solver
+    No;                      !- Allow Unsupported Zone Equipment
+
+
+!-   ===========  ALL OBJECTS IN CLASS: AIRFLOWNETWORK:MULTIZONE:ZONE ===========
+
+AirflowNetwork:MultiZone:Zone,
+    Thermal Zone 4,          !- Zone Name
+    Constant,                !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    Standard,                !- Single Sided Wind Pressure Coefficient Algorithm
+    10;                      !- Facade Width {m}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: AIRFLOWNETWORK:MULTIZONE:SURFACE ===========
+
+AirflowNetwork:MultiZone:Surface,
+    ventana_base_sur,        !- Surface Name
+    VTSur,                   !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    TVN_jorge,               !- Surface Name
+    VTNorte,                 !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: AIRFLOWNETWORK:MULTIZONE:COMPONENT:DETAILEDOPENING ===========
+
+AirflowNetwork:MultiZone:Component:DetailedOpening,
+    VTNorte,                 !- Name
+    0.001,                   !- Air Mass Flow Coefficient When Opening is Closed {kg/s-m}
+    0.667,                   !- Air Mass Flow Exponent When Opening is Closed {dimensionless}
+    NonPivoted,              !- Type of Rectangular Large Vertical Opening (LVO)
+    0,                       !- Extra Crack Length or Height of Pivoting Axis {m}
+    2,                       !- Number of Sets of Opening Factor Data
+    0,                       !- Opening Factor 1 {dimensionless}
+    0.001,                   !- Discharge Coefficient for Opening Factor 1 {dimensionless}
+    0,                       !- Width Factor for Opening Factor 1 {dimensionless}
+    0,                       !- Height Factor for Opening Factor 1 {dimensionless}
+    0,                       !- Start Height Factor for Opening Factor 1 {dimensionless}
+    1,                       !- Opening Factor 2 {dimensionless}
+    0.6,                     !- Discharge Coefficient for Opening Factor 2 {dimensionless}
+    1,                       !- Width Factor for Opening Factor 2 {dimensionless}
+    1,                       !- Height Factor for Opening Factor 2 {dimensionless}
+    0;                       !- Start Height Factor for Opening Factor 2 {dimensionless}
+
+AirflowNetwork:MultiZone:Component:DetailedOpening,
+    VTSur,                   !- Name
+    0.001,                   !- Air Mass Flow Coefficient When Opening is Closed {kg/s-m}
+    0.65,                    !- Air Mass Flow Exponent When Opening is Closed {dimensionless}
+    NonPivoted,              !- Type of Rectangular Large Vertical Opening (LVO)
+    0,                       !- Extra Crack Length or Height of Pivoting Axis {m}
+    2,                       !- Number of Sets of Opening Factor Data
+    0,                       !- Opening Factor 1 {dimensionless}
+    0.001,                   !- Discharge Coefficient for Opening Factor 1 {dimensionless}
+    0,                       !- Width Factor for Opening Factor 1 {dimensionless}
+    0,                       !- Height Factor for Opening Factor 1 {dimensionless}
+    0,                       !- Start Height Factor for Opening Factor 1 {dimensionless}
+    1,                       !- Opening Factor 2 {dimensionless}
+    1,                       !- Discharge Coefficient for Opening Factor 2 {dimensionless}
+    1,                       !- Width Factor for Opening Factor 2 {dimensionless}
+    1,                       !- Height Factor for Opening Factor 2 {dimensionless}
+    0;                       !- Start Height Factor for Opening Factor 2 {dimensionless}
+
+
 !-   ===========  ALL OBJECTS IN CLASS: SIZING:PARAMETERS ===========
 
 Sizing:Parameters,
