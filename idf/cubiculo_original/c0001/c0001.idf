@@ -122,14 +122,14 @@ Schedule:Compact,
     Through: 12/31,          !- Field 1
     For: Weekdays,           !- Field 2
     Until: 9:00,             !- Field 3
-     .29,                    !- Field 4
+    .29,                     !- Field 4
     Until: 18:00,            !- Field 5
-     1,                      !- Field 6
+    1,                       !- Field 6
     Until: 24:00,            !- Field 7
-     .29,                    !- Field 8
+    .29,                     !- Field 8
     For Weekends,            !- Field 9
     Until 24:00,             !- Field 10
-     .29;                    !- Field 11
+    .29;                     !- Field 11
 
 Schedule:Compact,
     HPLaser,                 !- Name
@@ -137,14 +137,14 @@ Schedule:Compact,
     Through: 12/31,          !- Field 1
     For: Weekdays,           !- Field 2
     Until: 9:00,             !- Field 3
-     .15,                    !- Field 4
+    .15,                     !- Field 4
     Until: 18:00,            !- Field 5
-     1,                      !- Field 6
+    1,                       !- Field 6
     Until: 24:00,            !- Field 7
-     .15,                    !- Field 8
+    .15,                     !- Field 8
     For: Weekends,           !- Field 9
     Until: 24:00,            !- Field 10
-     .15;                    !- Field 11
+    .15;                     !- Field 11
 
 Schedule:Compact,
     Telephone,               !- Name
@@ -152,7 +152,7 @@ Schedule:Compact,
     Through: 12/31,          !- Field 1
     For: AllDays,            !- Field 2
     Until: 24:00,            !- Field 3
-     1;                      !- Field 4
+    1;                       !- Field 4
 
 Schedule:Compact,
     Dell,                    !- Name
@@ -160,16 +160,16 @@ Schedule:Compact,
     Through: 12/31,          !- Field 1
     For: Weekdays,           !- Field 2
     Until: 9:00,             !- Field 3
-     .025,                   !- Field 4
+    .025,                    !- Field 4
     Until: 13:00,            !- Field 5
-     1,                      !- Field 6
+    1,                       !- Field 6
     Until: 14:30,            !- Field 7
-     .05,                    !- Field 8
+    .05,                     !- Field 8
     Until: 24:00,            !- Field 9
-     .025,                   !- Field 10
+    .025,                    !- Field 10
     For: Weekends,           !- Field 11
     Until: 24:00,            !- Field 12
-     .025;                   !- Field 13
+    .025;                    !- Field 13
 
 Schedule:Compact,
     CPUG,                    !- Name
@@ -177,14 +177,14 @@ Schedule:Compact,
     Through: 12/31,          !- Field 1
     For: Weekdays,           !- Field 2
     Until: 9:00,             !- Field 3
-     .17,                    !- Field 4
+    .17,                     !- Field 4
     Until: 18:00,            !- Field 5
-     1,                      !- Field 6
+    1,                       !- Field 6
     Until: 24:00,            !- Field 7
-     .17,                    !- Field 8
+    .17,                     !- Field 8
     For Weekends,            !- Field 9
     Until 24:00,             !- Field 10
-     .17;                    !- Field 11
+    .17;                     !- Field 11
 
 Schedule:Compact,
     AGILENT,                 !- Name
@@ -192,11 +192,11 @@ Schedule:Compact,
     Through: 12:31,          !- Field 1
     For: Weekdays,           !- Field 2
     Until: 9:00,             !- Field 3
-     .48,                    !- Field 4
+    .48,                     !- Field 4
     Until: 16:00,            !- Field 5
-     1,                      !- Field 6
+    1,                       !- Field 6
     Until: 24:00,            !- Field 7
-     .48;                    !- Field 8
+    .48;                     !- Field 8
 
 Schedule:Compact,
     ReguladorSteren,         !- Name
@@ -204,7 +204,7 @@ Schedule:Compact,
     Through: 12/31,          !- Field 1
     For: AllDays,            !- Field 2
     Until: 24:00,            !- Field 3
-     1;                      !- Field 4
+    1;                       !- Field 4
 
 
 !-   ===========  ALL OBJECTS IN CLASS: MATERIAL ===========
@@ -1987,7 +1987,7 @@ Shading:Building:Detailed,
 !-   ===========  ALL OBJECTS IN CLASS: ELECTRICEQUIPMENT ===========
 
 ElectricEquipment,
-    iMac,                    !- Name
+    iMac_jorge,              !- Name
     Thermal Zone: jorge,     !- Zone or ZoneList Name
     LapMac,                  !- Schedule Name
     EquipmentLevel,          !- Design Level Calculation Method
@@ -2000,7 +2000,7 @@ ElectricEquipment,
     General;                 !- End-Use Subcategory
 
 ElectricEquipment,
-    Impresora,               !- Name
+    Impresora_jorge,         !- Name
     Thermal Zone: jorge,     !- Zone or ZoneList Name
     HPLaser,                 !- Schedule Name
     EquipmentLevel,          !- Design Level Calculation Method
@@ -2013,7 +2013,7 @@ ElectricEquipment,
     General;                 !- End-Use Subcategory
 
 ElectricEquipment,
-    Telefono,                !- Name
+    Telefono_jorge,          !- Name
     Thermal Zone: jorge,     !- Zone or ZoneList Name
     Telephone,               !- Schedule Name
     EquipmentLevel,          !- Design Level Calculation Method
@@ -2026,7 +2026,7 @@ ElectricEquipment,
     General;                 !- End-Use Subcategory
 
 ElectricEquipment,
-    MonitorDell,             !- Name
+    MonitorDell_jorge,       !- Name
     Thermal Zone: jorge,     !- Zone or ZoneList Name
     Dell,                    !- Schedule Name
     EquipmentLevel,          !- Design Level Calculation Method
@@ -2039,7 +2039,7 @@ ElectricEquipment,
     General;                 !- End-Use Subcategory
 
 ElectricEquipment,
-    CPU,                     !- Name
+    CPU_jorge,               !- Name
     Thermal Zone: jorge,     !- Zone or ZoneList Name
     CPUG,                    !- Schedule Name
     EquipmentLevel,          !- Design Level Calculation Method
@@ -2052,7 +2052,7 @@ ElectricEquipment,
     General;                 !- End-Use Subcategory
 
 ElectricEquipment,
-    Agilent,                 !- Name
+    Agilent_jorge,           !- Name
     Thermal Zone: jorge,     !- Zone or ZoneList Name
     AGILENT,                 !- Schedule Name
     EquipmentLevel,          !- Design Level Calculation Method
@@ -2065,8 +2065,190 @@ ElectricEquipment,
     General;                 !- End-Use Subcategory
 
 ElectricEquipment,
-    Regulador,               !- Name
+    Regulador_jorge,         !- Name
     Thermal Zone: jorge,     !- Zone or ZoneList Name
+    ReguladorSteren,         !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    5,                       !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0.01,                    !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    iMac_C2,                 !- Name
+    Thermal Zone: C2 1,      !- Zone or ZoneList Name
+    LapMac,                  !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    166,                     !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0.2,                     !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    Impresora1_C2,           !- Name
+    Thermal Zone: C2 1,      !- Zone or ZoneList Name
+    HPLaser,                 !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    7,                       !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0.1,                     !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    Telefono_C2,             !- Name
+    Thermal Zone: C2 1,      !- Zone or ZoneList Name
+    Telephone,               !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    1.5,                     !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0.01,                    !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    MonitorDell_C2,          !- Name
+    Thermal Zone: C2 1,      !- Zone or ZoneList Name
+    Dell,                    !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    40,                      !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0.35,                    !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    CPU_C2,                  !- Name
+    Thermal Zone: C2 1,      !- Zone or ZoneList Name
+    CPUG,                    !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    294,                     !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0.1,                     !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    Agilent_C2,              !- Name
+    Thermal Zone: C2 1,      !- Zone or ZoneList Name
+    AGILENT,                 !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    25,                      !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0,                       !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    Regulador_C2,            !- Name
+    Thermal Zone: C2 1,      !- Zone or ZoneList Name
+    ReguladorSteren,         !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    5,                       !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0.01,                    !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    iMac_C1,                 !- Name
+    Thermal Zone: C1,        !- Zone or ZoneList Name
+    LapMac,                  !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    166,                     !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0.2,                     !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    Impresora_C1,            !- Name
+    Thermal Zone: C1,        !- Zone or ZoneList Name
+    HPLaser,                 !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    7,                       !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0.1,                     !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    Telefono_C1,             !- Name
+    Thermal Zone: C1,        !- Zone or ZoneList Name
+    Telephone,               !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    1.5,                     !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0.01,                    !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    MonitorDell_C1,          !- Name
+    Thermal Zone: C1,        !- Zone or ZoneList Name
+    Dell,                    !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    40,                      !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0.35,                    !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    CPU_C1,                  !- Name
+    Thermal Zone: C1,        !- Zone or ZoneList Name
+    CPUG,                    !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    294,                     !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0.1,                     !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    Agilent_C1,              !- Name
+    Thermal Zone: C1,        !- Zone or ZoneList Name
+    AGILENT,                 !- Schedule Name
+    EquipmentLevel,          !- Design Level Calculation Method
+    25,                      !- Design Level {W}
+    ,                        !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    0,                       !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+ElectricEquipment,
+    Regulador_C1,            !- Name
+    Thermal Zone: C1,        !- Zone or ZoneList Name
     ReguladorSteren,         !- Schedule Name
     EquipmentLevel,          !- Design Level Calculation Method
     5,                       !- Design Level {W}
@@ -2115,6 +2297,58 @@ AirflowNetwork:MultiZone:Zone,
 
 AirflowNetwork:MultiZone:Zone,
     Thermal Zone: jorge,     !- Zone Name
+    NoVent,                  !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    Standard,                !- Single Sided Wind Pressure Coefficient Algorithm
+    10;                      !- Facade Width {m}
+
+AirflowNetwork:MultiZone:Zone,
+    Thermal Zone: C2,        !- Zone Name
+    NoVent,                  !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    Standard,                !- Single Sided Wind Pressure Coefficient Algorithm
+    10;                      !- Facade Width {m}
+
+AirflowNetwork:MultiZone:Zone,
+    Thermal Zone: techada_C1,!- Zone Name
+    NoVent,                  !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    Standard,                !- Single Sided Wind Pressure Coefficient Algorithm
+    10;                      !- Facade Width {m}
+
+AirflowNetwork:MultiZone:Zone,
+    Thermal Zone: C1,        !- Zone Name
+    NoVent,                  !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    Standard,                !- Single Sided Wind Pressure Coefficient Algorithm
+    10;                      !- Facade Width {m}
+
+AirflowNetwork:MultiZone:Zone,
+    Thermal Zone: C2 1,      !- Zone Name
     NoVent,                  !- Ventilation Control Mode
     ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
     ,                        !- Minimum Venting Open Factor {dimensionless}
@@ -2248,6 +2482,244 @@ AirflowNetwork:MultiZone:Surface,
     PolygonHeight,           !- Equivalent Rectangle Method
     1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
 
+AirflowNetwork:MultiZone:Surface,
+    TVS_C1,                  !- Surface Name
+    Cracks_techada,          !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    TVN_C1,                  !- Surface Name
+    Cracks_techada,          !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    aluminio_C1,             !- Surface Name
+    Cracks_Cub,              !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    puerta_C1,               !- Surface Name
+    Cracks_Cub,              !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    VSAB_C1,                 !- Surface Name
+    Cracks_Cub,              !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    VSAR_C1,                 !- Surface Name
+    Cracks_Cub,              !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    VN_C1,                   !- Surface Name
+    Cracks_Cub,              !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    TVS_C2,                  !- Surface Name
+    Cracks_techada,          !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    TVN_C2,                  !- Surface Name
+    Cracks_techada,          !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    aluminio_C2,             !- Surface Name
+    Cracks_Cub,              !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    puerta_C2,               !- Surface Name
+    Cracks_Cub,              !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    VSAB_C2,                 !- Surface Name
+    Cracks_Cub,              !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    VSAR_C2,                 !- Surface Name
+    Cracks_Cub,              !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    VN_C2,                   !- Surface Name
+    Cracks_Cub,              !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
 
 !-   ===========  ALL OBJECTS IN CLASS: AIRFLOWNETWORK:MULTIZONE:SURFACE:CRACK ===========
 
@@ -2258,7 +2730,7 @@ AirflowNetwork:MultiZone:Surface:Crack,
 
 AirflowNetwork:MultiZone:Surface:Crack,
     Cracks_Cub,              !- Name
-    0.03,                    !- Air Mass Flow Coefficient at Reference Conditions {kg/s}
+    0.001,                   !- Air Mass Flow Coefficient at Reference Conditions {kg/s}
     0.65;                    !- Air Mass Flow Exponent {dimensionless}
 
 
@@ -2361,11 +2833,6 @@ OutputControl:Table:Style,
 
 
 !-   ===========  ALL OBJECTS IN CLASS: OUTPUT:VARIABLE ===========
-
-Output:Variable,
-    *,                       !- Key Value
-    Site Outdoor Air Drybulb Temperature,  !- Variable Name
-    Timestep;                !- Reporting Frequency
 
 Output:Variable,
     Thermal Zone: jorge,     !- Key Value
