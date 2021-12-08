@@ -2031,26 +2031,59 @@ Schedule:Constant,
 !-   ===========  ALL OBJECTS IN CLASS: MATERIAL ===========
 
 Material,
-    Adobe20cm,               !- Name
-    Rough,                   !- Roughness
-    0.2,                     !- Thickness {m}
-    0.58,                    !- Conductivity {W/m-K}
-    1500,                    !- Density {kg/m3}
-    1480,                    !- Specific Heat {J/kg-K}
-    0.9,                     !- Thermal Absorptance
-    0.7,                     !- Solar Absorptance
-    0.7;                     !- Visible Absorptance
-
-Material,
-    Aluminio5cm,             !- Name
+    Aluminio,                !- Name
     MediumSmooth,            !- Roughness
     0.05,                    !- Thickness {m}
-    235,                     !- Conductivity {W/m-K}
-    2700,                    !- Density {kg/m3}
+    205,                     !- Conductivity {W/m-K}
+    1500,                    !- Density {kg/m3}
     880,                     !- Specific Heat {J/kg-K}
     0.9,                     !- Thermal Absorptance
-    0.7,                     !- Solar Absorptance
-    0.7;                     !- Visible Absorptance
+    0.43,                    !- Solar Absorptance
+    0.43;                    !- Visible Absorptance
+
+Material,
+    Tabique,                 !- Name
+    MediumRough,             !- Roughness
+    0.14,                    !- Thickness {m}
+    0.7,                     !- Conductivity {W/m-K}
+    1970,                    !- Density {kg/m3}
+    800,                     !- Specific Heat {J/kg-K}
+    0.9,                     !- Thermal Absorptance
+    0.65,                    !- Solar Absorptance
+    0.65;                    !- Visible Absorptance
+
+Material,
+    CAD,                     !- Name
+    Rough,                   !- Roughness
+    0.1,                     !- Thickness {m}
+    2,                       !- Conductivity {W/m-K}
+    2400,                    !- Density {kg/m3}
+    1000,                    !- Specific Heat {J/kg-K}
+    0.9,                     !- Thermal Absorptance
+    0.6,                     !- Solar Absorptance
+    0.6;                     !- Visible Absorptance
+
+Material,
+    MorteroAD,               !- Name
+    Rough,                   !- Roughness
+    0.1,                     !- Thickness {m}
+    0.88,                    !- Conductivity {W/m-K}
+    2800,                    !- Density {kg/m3}
+    896,                     !- Specific Heat {J/kg-K}
+    0.9,                     !- Thermal Absorptance
+    0.2,                     !- Solar Absorptance
+    0.2;                     !- Visible Absorptance
+
+Material,
+    Poliestireno,            !- Name
+    MediumSmooth,            !- Roughness
+    0.05,                    !- Thickness {m}
+    0.33,                    !- Conductivity {W/m-K}
+    920,                     !- Density {kg/m3}
+    2300,                    !- Specific Heat {J/kg-K}
+    0.9,                     !- Thermal Absorptance
+    0.3,                     !- Solar Absorptance
+    0.3;                     !- Visible Absorptance
 
 
 !-   ===========  ALL OBJECTS IN CLASS: MATERIAL:NOMASS ===========
@@ -2137,12 +2170,20 @@ Construction,
     Clear 3mm;               !- Outside Layer
 
 Construction,
-    Adobe20cm,               !- Name
-    Adobe20cm;               !- Outside Layer
+    AluminioDoor,            !- Name
+    Aluminio;                !- Outside Layer
 
 Construction,
-    AluminioDoor,            !- Name
-    Aluminio5cm;             !- Outside Layer
+    CAD,                     !- Name
+    CAD;                     !- Outside Layer
+
+Construction,
+    Tabique,                 !- Name
+    Tabique;                 !- Outside Layer
+
+Construction,
+    TechoHueco,              !- Name
+    MorteroAD;               !- Outside Layer
 
 
 !-   ===========  ALL OBJECTS IN CLASS: GLOBALGEOMETRYRULES ===========
@@ -2205,7 +2246,7 @@ Zone,
 BuildingSurface:Detailed,
     este_C1,                 !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    Tabique,                 !- Construction Name
     Thermal Zone: C1,        !- Zone Name
     Surface,                 !- Outside Boundary Condition
     oeste_jorge,             !- Outside Boundary Condition Object
@@ -2229,7 +2270,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     norte_C1,                !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    Tabique,                 !- Construction Name
     Thermal Zone: C1,        !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2253,7 +2294,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     oeste_C1,                !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    Tabique,                 !- Construction Name
     Thermal Zone: C1,        !- Zone Name
     Surface,                 !- Outside Boundary Condition
     este_C2,                 !- Outside Boundary Condition Object
@@ -2277,7 +2318,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     suelo_C1,                !- Name
     Floor,                   !- Surface Type
-    Adobe20cm,               !- Construction Name
+    CAD,                     !- Construction Name
     Thermal Zone: C1,        !- Zone Name
     Ground,                  !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2301,7 +2342,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     sur_C1,                  !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    Tabique,                 !- Construction Name
     Thermal Zone: C1,        !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2325,7 +2366,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     techo_C1,                !- Name
     Ceiling,                 !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: C1,        !- Zone Name
     Surface,                 !- Outside Boundary Condition
     TA2_C1,                  !- Outside Boundary Condition Object
@@ -2349,7 +2390,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TA1_C2,                  !- Name
     Floor,                   !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: C2,        !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2373,7 +2414,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TA2__C2,                 !- Name
     Floor,                   !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: C2,        !- Zone Name
     Surface,                 !- Outside Boundary Condition
     techo_C2,                !- Outside Boundary Condition Object
@@ -2397,7 +2438,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TA3_C2,                  !- Name
     Floor,                   !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: C2,        !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2421,7 +2462,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TE_C2,                   !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: C2,        !- Zone Name
     Surface,                 !- Outside Boundary Condition
     TO_C1,                   !- Outside Boundary Condition Object
@@ -2445,7 +2486,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TN_C2,                   !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: C2,        !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2469,7 +2510,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TO_C2,                   !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: C2,        !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2493,7 +2534,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TS_C2,                   !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: C2,        !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2517,7 +2558,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TT_C2,                   !- Name
     Roof,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: C2,        !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2541,7 +2582,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     este_C2,                 !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    Tabique,                 !- Construction Name
     Thermal Zone: C2 1,      !- Zone Name
     Surface,                 !- Outside Boundary Condition
     oeste_C1,                !- Outside Boundary Condition Object
@@ -2565,7 +2606,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     norte_C2,                !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    Tabique,                 !- Construction Name
     Thermal Zone: C2 1,      !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2589,7 +2630,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     oeste_C2,                !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    Tabique,                 !- Construction Name
     Thermal Zone: C2 1,      !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2613,7 +2654,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     suelo_C2,                !- Name
     Floor,                   !- Surface Type
-    Adobe20cm,               !- Construction Name
+    CAD,                     !- Construction Name
     Thermal Zone: C2 1,      !- Zone Name
     Ground,                  !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2637,7 +2678,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     sur_C2,                  !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    Tabique,                 !- Construction Name
     Thermal Zone: C2 1,      !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2661,7 +2702,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     techo_C2,                !- Name
     Ceiling,                 !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: C2 1,      !- Zone Name
     Surface,                 !- Outside Boundary Condition
     TA2__C2,                 !- Outside Boundary Condition Object
@@ -2685,7 +2726,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     este_jorge,              !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    Tabique,                 !- Construction Name
     Thermal Zone: jorge,     !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2709,7 +2750,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     norte_jorge,             !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    Tabique,                 !- Construction Name
     Thermal Zone: jorge,     !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2733,7 +2774,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     oeste_jorge,             !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    Tabique,                 !- Construction Name
     Thermal Zone: jorge,     !- Zone Name
     Surface,                 !- Outside Boundary Condition
     este_C1,                 !- Outside Boundary Condition Object
@@ -2757,7 +2798,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     suelo_jorge,             !- Name
     Floor,                   !- Surface Type
-    Adobe20cm,               !- Construction Name
+    CAD,                     !- Construction Name
     Thermal Zone: jorge,     !- Zone Name
     Ground,                  !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2781,7 +2822,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     sur_jorge,               !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    Tabique,                 !- Construction Name
     Thermal Zone: jorge,     !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2805,7 +2846,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     techo_jorge,             !- Name
     Ceiling,                 !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: jorge,     !- Zone Name
     Surface,                 !- Outside Boundary Condition
     TA2_jorge,               !- Outside Boundary Condition Object
@@ -2829,7 +2870,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TA1_C1,                  !- Name
     Floor,                   !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_C1,!- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2853,7 +2894,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TA2_C1,                  !- Name
     Floor,                   !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_C1,!- Zone Name
     Surface,                 !- Outside Boundary Condition
     techo_C1,                !- Outside Boundary Condition Object
@@ -2877,7 +2918,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TA3_C1,                  !- Name
     Floor,                   !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_C1,!- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2901,7 +2942,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TE_C1,                   !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_C1,!- Zone Name
     Surface,                 !- Outside Boundary Condition
     TO_jorge,                !- Outside Boundary Condition Object
@@ -2925,7 +2966,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TN_C1,                   !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_C1,!- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2949,7 +2990,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TO_C1,                   !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_C1,!- Zone Name
     Surface,                 !- Outside Boundary Condition
     TE_C2,                   !- Outside Boundary Condition Object
@@ -2973,7 +3014,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TS_C1,                   !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_C1,!- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -2997,7 +3038,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TT_C1,                   !- Name
     Roof,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_C1,!- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -3021,7 +3062,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TA1_jorge,               !- Name
     Floor,                   !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_jorge,  !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -3045,7 +3086,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TA2_jorge,               !- Name
     Floor,                   !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_jorge,  !- Zone Name
     Surface,                 !- Outside Boundary Condition
     techo_jorge,             !- Outside Boundary Condition Object
@@ -3069,7 +3110,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TA3_jorge,               !- Name
     Floor,                   !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_jorge,  !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -3093,7 +3134,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TE_jorge,                !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_jorge,  !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -3117,7 +3158,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TN_jorge,                !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_jorge,  !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -3141,7 +3182,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TO_jorge,                !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_jorge,  !- Zone Name
     Surface,                 !- Outside Boundary Condition
     TE_C1,                   !- Outside Boundary Condition Object
@@ -3165,7 +3206,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TS_jorge,                !- Name
     Wall,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_jorge,  !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -3189,7 +3230,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
     TT_jorge,                !- Name
     Roof,                    !- Surface Type
-    Adobe20cm,               !- Construction Name
+    TechoHueco,              !- Construction Name
     Thermal Zone: techada_jorge,  !- Zone Name
     Outdoors,                !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
@@ -3762,6 +3803,212 @@ Shading:Building:Detailed,
     -2.4645401783798,        !- Vertex 4 X-coordinate {m}
     8.99173645542149,        !- Vertex 4 Y-coordinate {m}
     5.37112961655633;        !- Vertex 4 Z-coordinate {m}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: AIRFLOWNETWORK:SIMULATIONCONTROL ===========
+
+AirflowNetwork:SimulationControl,
+    Techadas,                !- Name
+    MultizoneWithoutDistribution,  !- AirflowNetwork Control
+    SurfaceAverageCalculation,  !- Wind Pressure Coefficient Type
+    ,                        !- Height Selection for Local Wind Pressure Calculation
+    LowRise,                 !- Building Type
+    500,                     !- Maximum Number of Iterations {dimensionless}
+    ZeroNodePressures,       !- Initialization Type
+    0.0001,                  !- Relative Airflow Convergence Tolerance {dimensionless}
+    0.000001,                !- Absolute Airflow Convergence Tolerance {kg/s}
+    -.5,                     !- Convergence Acceleration Limit {dimensionless}
+    ,                        !- Azimuth Angle of Long Axis of Building {deg}
+    1,                       !- Ratio of Building Width Along Short Axis to Width Along Long Axis
+    No,                      !- Height Dependence of External Node Temperature
+    SkylineLU,               !- Solver
+    No;                      !- Allow Unsupported Zone Equipment
+
+
+!-   ===========  ALL OBJECTS IN CLASS: AIRFLOWNETWORK:MULTIZONE:ZONE ===========
+
+AirflowNetwork:MultiZone:Zone,
+    Thermal Zone: techada_jorge,  !- Zone Name
+    Constant,                !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    Standard,                !- Single Sided Wind Pressure Coefficient Algorithm
+    10;                      !- Facade Width {m}
+
+AirflowNetwork:MultiZone:Zone,
+    Thermal Zone: C2,        !- Zone Name
+    Constant,                !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    Standard,                !- Single Sided Wind Pressure Coefficient Algorithm
+    10;                      !- Facade Width {m}
+
+AirflowNetwork:MultiZone:Zone,
+    Thermal Zone: techada_C1,!- Zone Name
+    Constant,                !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    Standard,                !- Single Sided Wind Pressure Coefficient Algorithm
+    10;                      !- Facade Width {m}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: AIRFLOWNETWORK:MULTIZONE:SURFACE ===========
+
+AirflowNetwork:MultiZone:Surface,
+    TVN_jorge,               !- Surface Name
+    VNorte,                  !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    TVS_jorge,               !- Surface Name
+    VSur,                    !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    TVN_C2,                  !- Surface Name
+    VNorte,                  !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    TVS_C2,                  !- Surface Name
+    VSur,                    !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    TVN_C1,                  !- Surface Name
+    VSur,                    !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+AirflowNetwork:MultiZone:Surface,
+    TVS_C1,                  !- Surface Name
+    VSur,                    !- Leakage Component Name
+    ,                        !- External Node Name
+    1,                       !- Window/Door Opening Factor, or Crack Factor {dimensionless}
+    ZoneLevel,               !- Ventilation Control Mode
+    ,                        !- Ventilation Control Zone Temperature Setpoint Schedule Name
+    ,                        !- Minimum Venting Open Factor {dimensionless}
+    ,                        !- Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}
+    100,                     !- Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}
+    ,                        !- Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}
+    300000,                  !- Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}
+    ,                        !- Venting Availability Schedule Name
+    ,                        !- Occupant Ventilation Control Name
+    PolygonHeight,           !- Equivalent Rectangle Method
+    1;                       !- Equivalent Rectangle Aspect Ratio {dimensionless}
+
+
+!-   ===========  ALL OBJECTS IN CLASS: AIRFLOWNETWORK:MULTIZONE:COMPONENT:DETAILEDOPENING ===========
+
+AirflowNetwork:MultiZone:Component:DetailedOpening,
+    VNorte,                  !- Name
+    0.001,                   !- Air Mass Flow Coefficient When Opening is Closed {kg/s-m}
+    0.65,                    !- Air Mass Flow Exponent When Opening is Closed {dimensionless}
+    NonPivoted,              !- Type of Rectangular Large Vertical Opening (LVO)
+    0,                       !- Extra Crack Length or Height of Pivoting Axis {m}
+    2,                       !- Number of Sets of Opening Factor Data
+    0,                       !- Opening Factor 1 {dimensionless}
+    0.001,                   !- Discharge Coefficient for Opening Factor 1 {dimensionless}
+    0,                       !- Width Factor for Opening Factor 1 {dimensionless}
+    0,                       !- Height Factor for Opening Factor 1 {dimensionless}
+    0,                       !- Start Height Factor for Opening Factor 1 {dimensionless}
+    1,                       !- Opening Factor 2 {dimensionless}
+    0.6,                     !- Discharge Coefficient for Opening Factor 2 {dimensionless}
+    1,                       !- Width Factor for Opening Factor 2 {dimensionless}
+    1,                       !- Height Factor for Opening Factor 2 {dimensionless}
+    0;                       !- Start Height Factor for Opening Factor 2 {dimensionless}
+
+AirflowNetwork:MultiZone:Component:DetailedOpening,
+    VSur,                    !- Name
+    0.001,                   !- Air Mass Flow Coefficient When Opening is Closed {kg/s-m}
+    0.65,                    !- Air Mass Flow Exponent When Opening is Closed {dimensionless}
+    NonPivoted,              !- Type of Rectangular Large Vertical Opening (LVO)
+    0,                       !- Extra Crack Length or Height of Pivoting Axis {m}
+    2,                       !- Number of Sets of Opening Factor Data
+    0,                       !- Opening Factor 1 {dimensionless}
+    0.001,                   !- Discharge Coefficient for Opening Factor 1 {dimensionless}
+    0,                       !- Width Factor for Opening Factor 1 {dimensionless}
+    0,                       !- Height Factor for Opening Factor 1 {dimensionless}
+    0,                       !- Start Height Factor for Opening Factor 1 {dimensionless}
+    1,                       !- Opening Factor 2 {dimensionless}
+    1,                       !- Discharge Coefficient for Opening Factor 2 {dimensionless}
+    1,                       !- Width Factor for Opening Factor 2 {dimensionless}
+    1,                       !- Height Factor for Opening Factor 2 {dimensionless}
+    0;                       !- Start Height Factor for Opening Factor 2 {dimensionless}
 
 
 !-   ===========  ALL OBJECTS IN CLASS: SIZING:PARAMETERS ===========
