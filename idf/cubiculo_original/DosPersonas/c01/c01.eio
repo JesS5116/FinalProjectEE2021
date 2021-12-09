@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.08 22:33
+Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.09 16:27
 ! <Version>, Version ID
  Version, 9.5
 ! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
@@ -125,12 +125,12 @@ Environment,RUN PERIOD 1,WeatherFileRunPeriod,05/03/2006,06/25/2006,Wednesday,54
 Environment:Daylight Saving,No,RunPeriod Object
 Environment:WarmupDays,  3
 ! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
- Warmup Convergence Information,THERMAL ZONE: C1,RunPeriod: RUN PERIOD 1,0.2286467007,0.2440579685,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,THERMAL ZONE: C2,RunPeriod: RUN PERIOD 1,0.3195163577,0.3425401268,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,THERMAL ZONE: C2 1,RunPeriod: RUN PERIOD 1,0.2319838069,0.2556468462,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,THERMAL ZONE: JORGE,RunPeriod: RUN PERIOD 1,0.2330007907,0.2524348821,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,THERMAL ZONE: TECHADA_C1,RunPeriod: RUN PERIOD 1,0.3169228171,0.3430417430,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,THERMAL ZONE: TECHADA_JORGE,RunPeriod: RUN PERIOD 1,0.3159033745,0.3306996668,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: C1,RunPeriod: RUN PERIOD 1,0.2282293366,0.2431148472,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: C2,RunPeriod: RUN PERIOD 1,0.3196477179,0.3425340815,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: C2 1,RunPeriod: RUN PERIOD 1,0.2302258228,0.2543059535,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: JORGE,RunPeriod: RUN PERIOD 1,0.2305452816,0.2517217459,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: TECHADA_C1,RunPeriod: RUN PERIOD 1,0.3170287803,0.3430428809,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,THERMAL ZONE: TECHADA_JORGE,RunPeriod: RUN PERIOD 1,0.3159855992,0.3305730167,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
 ! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
 Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
 End of Data
