@@ -120,6 +120,27 @@ ScheduleTypeLimits,
     Discrete,                !- Numeric Type
     ActivityLevel;           !- Unit Type
 
+ScheduleTypeLimits,
+    Eficiencia,              !- Name
+    0,                       !- Lower Limit Value
+    1,                       !- Upper Limit Value
+    Continuous,              !- Numeric Type
+    Dimensionless;           !- Unit Type
+
+ScheduleTypeLimits,
+    Clo,                     !- Name
+    0,                       !- Lower Limit Value
+    ,                        !- Upper Limit Value
+    Continuous,              !- Numeric Type
+    Dimensionless;           !- Unit Type
+
+ScheduleTypeLimits,
+    Velocity,                !- Name
+    0,                       !- Lower Limit Value
+    1,                       !- Upper Limit Value
+    Continuous,              !- Numeric Type
+    Velocity;                !- Unit Type
+
 
 !-   ===========  ALL OBJECTS IN CLASS: SCHEDULE:COMPACT ===========
 
@@ -196,7 +217,7 @@ Schedule:Compact,
 Schedule:Compact,
     AGILENT,                 !- Name
     Prorcentaje,             !- Schedule Type Limits Name
-    Through: 12:31,          !- Field 1
+    Through: 12/31,          !- Field 1
     For: Weekdays,           !- Field 2
     Until: 9:00,             !- Field 3
     .48,                     !- Field 4
@@ -243,6 +264,60 @@ Schedule:Compact,
     117,                     !- Field 10
     Until: 24:00,            !- Field 11
     0;                       !- Field 12
+
+Schedule:Compact,
+    WorkingPerson,           !- Name
+    Eficiencia,              !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0;                       !- Field 4
+
+Schedule:Compact,
+    Velocidad,               !- Name
+    Velocity,                !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: Weekdays,           !- Field 2
+    Until: 9:00,             !- Field 3
+    .1,                      !- Field 4
+    Until: 18:00,            !- Field 5
+    .3,                      !- Field 6
+    Until: 24:00,            !- Field 7
+    .1,                      !- Field 8
+    For: Weekends,           !- Field 9
+    Until: 24:00,            !- Field 10
+    .1;                      !- Field 11
+
+Schedule:Compact,
+    Clothing,                !- Name
+    Clo,                     !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: WeekDays,           !- Field 2
+    Until: 9:00,             !- Field 3
+    1,                       !- Field 4
+    Until:18:00,             !- Field 5
+    2,                       !- Field 6
+    Until: 24:00,            !- Field 7
+    1;                       !- Field 8
+
+Schedule:Compact,
+    Wearing,                 !- Name
+    Clo,                     !- Schedule Type Limits Name
+    Through: 12/31,          !- Field 1
+    For: WeekDays,           !- Field 2
+    Until: 9:00,             !- Field 3
+    0,                       !- Field 4
+    Until: 14:00,            !- Field 5
+    .55,                     !- Field 6
+    Until:16:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 18:00,            !- Field 9
+    .8,                      !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: Weekends,           !- Field 13
+    Until: 24:00,            !- Field 14
+    0;                       !- Field 15
 
 
 !-   ===========  ALL OBJECTS IN CLASS: MATERIAL ===========
@@ -2039,8 +2114,12 @@ People,
     No,                      !- Enable ASHRAE 55 Comfort Warnings
     ZoneAveraged,            !- Mean Radiant Temperature Calculation Type
     ,                        !- Surface Name/Angle Factor List Name
-    ,                        !- Work Efficiency Schedule Name
-    ClothingInsulationSchedule;  !- Clothing Insulation Calculation Method
+    WorkingPerson,           !- Work Efficiency Schedule Name
+    ,                        !- Clothing Insulation Calculation Method
+    Clothing,                !- Clothing Insulation Calculation Method Schedule Name
+    Wearing,                 !- Clothing Insulation Schedule Name
+    Velocidad,               !- Air Velocity Schedule Name
+    Fanger;                  !- Thermal Comfort Model 1 Type
 
 People,
     Cub01,                   !- Name
@@ -2932,6 +3011,16 @@ OutputControl:Table:Style,
 Output:Variable,
     Thermal Zone: jorge,     !- Key Value
     Zone Mean Air Temperature,  !- Variable Name
+    Timestep;                !- Reporting Frequency
+
+Output:Variable,
+    *,                       !- Key Value
+    Zone Thermal Comfort Fanger Model PPD,  !- Variable Name
+    Timestep;                !- Reporting Frequency
+
+Output:Variable,
+    *,                       !- Key Value
+    Zone Thermal Comfort Fanger Model PMV,  !- Variable Name
     Timestep;                !- Reporting Frequency
 
 

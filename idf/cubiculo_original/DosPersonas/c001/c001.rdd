@@ -1,4 +1,4 @@
-! Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.08 17:50,
+! Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.08 22:33,
 ! Output:Variable Objects (applicable to this run)
 Output:Variable,*,Site Outdoor Air Drybulb Temperature,hourly; !- Zone Average [C]
 Output:Variable,*,Site Outdoor Air Dewpoint Temperature,hourly; !- Zone Average [C]
@@ -395,6 +395,12 @@ Output:Variable,*,Zone Oscillating Temperatures in Deadband Time,hourly; !- HVAC
 Output:Variable,*,Facility Any Zone Oscillating Temperatures Time,hourly; !- HVAC Sum [hr]
 Output:Variable,*,Facility Any Zone Oscillating Temperatures During Occupancy Time,hourly; !- HVAC Sum [hr]
 Output:Variable,*,Facility Any Zone Oscillating Temperatures in Deadband Time,hourly; !- HVAC Sum [hr]
+Output:Variable,*,Zone Thermal Comfort Fanger Model PMV,hourly; !- Zone Average []
+Output:Variable,*,Zone Thermal Comfort Fanger Model PPD,hourly; !- Zone Average [%]
+Output:Variable,*,Zone Thermal Comfort Clothing Surface Temperature,hourly; !- Zone Average [C]
+Output:Variable,*,Zone Thermal Comfort Mean Radiant Temperature,hourly; !- Zone Average [C]
+Output:Variable,*,Zone Thermal Comfort Operative Temperature,hourly; !- Zone Average [C]
+Output:Variable,*,Zone Thermal Comfort Clothing Value,hourly; !- Zone Average [clo]
 Output:Variable,*,Zone Thermal Comfort ASHRAE 55 Simple Model Summer Clothes Not Comfortable Time,hourly; !- Zone Sum [hr]
 Output:Variable,*,Zone Thermal Comfort ASHRAE 55 Simple Model Winter Clothes Not Comfortable Time,hourly; !- Zone Sum [hr]
 Output:Variable,*,Zone Thermal Comfort ASHRAE 55 Simple Model Summer or Winter Clothes Not Comfortable Time,hourly; !- Zone Sum [hr]

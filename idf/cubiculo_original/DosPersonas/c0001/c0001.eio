@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.08 17:49
+Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.08 22:32
 ! <Version>, Version ID
  Version, 9.5
 ! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
@@ -73,8 +73,8 @@ Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.
  Zone Internal Gains Nominal, THERMAL ZONE: JORGE,13.08,2.0,6.542,0.153,0.000,41.155,0.000,0.000,0.000,0.000,41.155,No
  Zone Internal Gains Nominal, THERMAL ZONE: TECHADA_C1,21.95,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
  Zone Internal Gains Nominal, THERMAL ZONE: TECHADA_JORGE,21.98,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
-! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People
- People Internal Gains Nominal, JORGE,GEORGE,THERMAL ZONE: JORGE,13.08,2.0,2.0,0.153,6.542,0.300,0.700,AutoCalculate,ACTIVIDADPERSONA,No,3.8200E-008,0,2
+! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People,MRT Calculation Type,Work Efficiency, Clothing Insulation Calculation Method,Clothing Insulation Calculation Method Schedule,Clothing,Air Velocity,Fanger Calculation,Pierce Calculation,KSU Calculation,Cooling Effect Calculation,Ankle Draft Calculation
+ People Internal Gains Nominal, JORGE,GEORGE,THERMAL ZONE: JORGE,13.08,2.0,2.0,0.153,6.542,0.300,0.700,AutoCalculate,ACTIVIDADPERSONA,No,3.8200E-008,0,2,Zone Averaged,WORKINGPERSON,Clothing Insulation Schedule,N/A,WEARING,VELOCIDAD,Yes,No,No,No,No
  People Internal Gains Nominal, CUB01,GEORGE,THERMAL ZONE: C1,13.08,1.0,1.0,7.642E-002,13.085,0.300,0.700,AutoCalculate,ACTIVIDADPERSONA,No,3.8200E-008,0,1
  People Internal Gains Nominal, CUB02,GEORGE,THERMAL ZONE: C2 1,13.08,2.0,2.0,0.153,6.542,0.300,0.700,AutoCalculate,ACTIVIDADPERSONA,No,3.8200E-008,0,2
 ! <ElectricEquipment Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}

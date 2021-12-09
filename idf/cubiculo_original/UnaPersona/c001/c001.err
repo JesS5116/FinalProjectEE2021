@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.08 17:46,
+Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.08 22:26,
    ** Warning ** ProcessScheduleInput: Schedule:Compact="LAPMAC" has missing day types in Through=12/31
    **   ~~~   ** Last "For" field=FOR WEEKENDS
    **   ~~~   ** Missing day types="Holiday","SummerDesignDay","WinterDesignDay","CustomDay1","CustomDay2"
@@ -15,7 +15,7 @@ Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.08 17:46,
    **   ~~~   ** Last "For" field=FOR WEEKENDS
    **   ~~~   ** Missing day types="Holiday","SummerDesignDay","WinterDesignDay","CustomDay1","CustomDay2"
    **   ~~~   ** Missing day types will have 0.0 as Schedule Values
-   ** Warning ** ProcessScheduleInput: Schedule:Compact="AGILENT" has missing day types in Through=12:31
+   ** Warning ** ProcessScheduleInput: Schedule:Compact="AGILENT" has missing day types in Through=12/31
    **   ~~~   ** Last "For" field=FOR: WEEKDAYS
    **   ~~~   ** Missing day types="Sunday","Saturday","Holiday","SummerDesignDay","WinterDesignDay","CustomDay1","CustomDay2"
    **   ~~~   ** Missing day types will have 0.0 as Schedule Values
@@ -26,6 +26,18 @@ Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.08 17:46,
    ** Warning ** ProcessScheduleInput: Schedule:Compact="ACTIVIDADPERSONA" has missing day types in Through=12/31
    **   ~~~   ** Last "For" field=FOR WEEKDAYS
    **   ~~~   ** Missing day types="Sunday","Saturday","Holiday","SummerDesignDay","WinterDesignDay","CustomDay1","CustomDay2"
+   **   ~~~   ** Missing day types will have 0.0 as Schedule Values
+   ** Warning ** ProcessScheduleInput: Schedule:Compact="VELOCIDAD" has missing day types in Through=12/31
+   **   ~~~   ** Last "For" field=FOR: WEEKENDS
+   **   ~~~   ** Missing day types="Holiday","SummerDesignDay","WinterDesignDay","CustomDay1","CustomDay2"
+   **   ~~~   ** Missing day types will have 0.0 as Schedule Values
+   ** Warning ** ProcessScheduleInput: Schedule:Compact="CLOTHING" has missing day types in Through=12/31
+   **   ~~~   ** Last "For" field=FOR: WEEKDAYS
+   **   ~~~   ** Missing day types="Sunday","Saturday","Holiday","SummerDesignDay","WinterDesignDay","CustomDay1","CustomDay2"
+   **   ~~~   ** Missing day types will have 0.0 as Schedule Values
+   ** Warning ** ProcessScheduleInput: Schedule:Compact="WEARING" has missing day types in Through=12/31
+   **   ~~~   ** Last "For" field=FOR: WEEKENDS
+   **   ~~~   ** Missing day types="Holiday","SummerDesignDay","WinterDesignDay","CustomDay1","CustomDay2"
    **   ~~~   ** Missing day types will have 0.0 as Schedule Values
    ** Warning ** GetInternalHeatGains: People="JORGE", Activity Level Schedule Name values
    **   ~~~   ** fall outside typical range [70,1000] W/person for Thermal Comfort Reporting.
@@ -48,6 +60,8 @@ Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.08 17:46,
    ************* No node connection errors were found.
    ************* Beginning Simulation
    ************* Simulation Error Summary *************
+   ************* There are 1 unused schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
    ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 10 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 12.96sec
+   ************* EnergyPlus Completed Successfully-- 13 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 11.31sec
