@@ -3016,12 +3016,12 @@ Output:Variable,
 Output:Variable,
     *,                       !- Key Value
     Zone Thermal Comfort Fanger Model PPD,  !- Variable Name
-    Hourly;                  !- Reporting Frequency
+    Timestep;                !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
     Zone Thermal Comfort Fanger Model PMV,  !- Variable Name
-    Hourly;                  !- Reporting Frequency
+    Timestep;                !- Reporting Frequency
 
 
 !-   ===========  ALL OBJECTS IN CLASS: OUTPUT:SQLITE ===========
