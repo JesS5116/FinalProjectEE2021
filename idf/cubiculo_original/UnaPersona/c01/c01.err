@@ -1,4 +1,4 @@
-Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.09 14:17,
+Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.09 19:01,
    ** Warning ** ProcessScheduleInput: Schedule:Compact="LAPMAC" has missing day types in Through=12/31
    **   ~~~   ** Last "For" field=FOR WEEKENDS
    **   ~~~   ** Missing day types="Holiday","SummerDesignDay","WinterDesignDay","CustomDay1","CustomDay2"
@@ -23,10 +23,6 @@ Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.09 14:17,
    **   ~~~   ** Last "For" field=FOR: WEEKENDS
    **   ~~~   ** Missing day types="Holiday","SummerDesignDay","WinterDesignDay","CustomDay1","CustomDay2"
    **   ~~~   ** Missing day types will have 0.0 as Schedule Values
-   ** Warning ** ProcessScheduleInput: Schedule:Compact="ACTIVIDADPERSONA" has missing day types in Through=12/31
-   **   ~~~   ** Last "For" field=FOR: WEEKENDS
-   **   ~~~   ** Missing day types="Holiday","SummerDesignDay","WinterDesignDay","CustomDay1","CustomDay2"
-   **   ~~~   ** Missing day types will have 0.0 as Schedule Values
    ** Warning ** ProcessScheduleInput: Schedule:Compact="VELOCIDAD" has missing day types in Through=12/31
    **   ~~~   ** Last "For" field=FOR: WEEKENDS
    **   ~~~   ** Missing day types="Holiday","SummerDesignDay","WinterDesignDay","CustomDay1","CustomDay2"
@@ -39,18 +35,6 @@ Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.09 14:17,
    **   ~~~   ** Last "For" field=FOR: WEEKENDS
    **   ~~~   ** Missing day types="Holiday","SummerDesignDay","WinterDesignDay","CustomDay1","CustomDay2"
    **   ~~~   ** Missing day types will have 0.0 as Schedule Values
-   ** Warning ** GetInternalHeatGains: People="JORGE", Activity Level Schedule Name values
-   **   ~~~   ** fall outside typical range [70,1000] W/person for Thermal Comfort Reporting.
-   **   ~~~   ** Odd comfort values may result; Schedule="ACTIVIDADPERSONA".
-   **   ~~~   ** Entered min/max range=[0.0,] W/person.117.0
-   ** Warning ** GetInternalHeatGains: People="CUB01", Activity Level Schedule Name values
-   **   ~~~   ** fall outside typical range [70,1000] W/person for Thermal Comfort Reporting.
-   **   ~~~   ** Odd comfort values may result; Schedule="ACTIVIDADPERSONA".
-   **   ~~~   ** Entered min/max range=[0.0,] W/person.117.0
-   ** Warning ** GetInternalHeatGains: People="CUB02", Activity Level Schedule Name values
-   **   ~~~   ** fall outside typical range [70,1000] W/person for Thermal Comfort Reporting.
-   **   ~~~   ** Odd comfort values may result; Schedule="ACTIVIDADPERSONA".
-   **   ~~~   ** Entered min/max range=[0.0,] W/person.117.0
    ************* Testing Individual Branch Integrity
    ************* All Branches passed integrity testing
    ************* Testing Individual Supply Air Path Integrity
@@ -64,4 +48,4 @@ Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.12.09 14:17,
    ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
    ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 13 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 12.45sec
+   ************* EnergyPlus Completed Successfully-- 9 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 13.04sec

@@ -1,0 +1,606 @@
+
+ Meters for 7,IMAC_JORGE:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 80,IMPRESORA_JORGE:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 81,TELEFONO_JORGE:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 82,MONITORDELL_JORGE:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 83,CPU_JORGE:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 84,AGILENT_JORGE:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 85,REGULADOR_JORGE:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 86,IMAC_C2:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 111,IMPRESORA1_C2:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 112,TELEFONO_C2:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 113,MONITORDELL_C2:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 114,CPU_C2:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 115,AGILENT_C2:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 116,REGULADOR_C2:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 117,IMAC_C1:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 142,IMPRESORA_C1:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 143,TELEFONO_C1:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 144,MONITORDELL_C1:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 145,CPU_C1:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 146,AGILENT_C1:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 147,REGULADOR_C1:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 149,THERMAL ZONE: C1:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 222,THERMAL ZONE: C1:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: C1 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 259,THERMAL ZONE: C2:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: C2 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: C2 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 284,THERMAL ZONE: C2:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: C2 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: C2 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 297,THERMAL ZONE: C2 1:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 322,THERMAL ZONE: C2 1:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: C2 1 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 335,THERMAL ZONE: JORGE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 360,THERMAL ZONE: JORGE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: JORGE [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 373,THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: TECHADA_C1 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: TECHADA_C1 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 398,THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: TECHADA_C1 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: TECHADA_C1 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 411,THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: TECHADA_JORGE [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: TECHADA_JORGE [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+
+ Meters for 436,THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: TECHADA_JORGE [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: TECHADA_JORGE [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+
+ Meters for 449,Whole Building:Facility Total Purchased Electricity Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+  OnMeter=General:Cogeneration:ElectricityPurchased [J]
+
+ Meters for 498,Whole Building:Facility Total Surplus Electricity Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+  OnMeter=General:Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 547,Whole Building:Facility Net Purchased Electricity Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+  OnMeter=General:Cogeneration:ElectricityNet [J]
+
+ Meters for 598,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 623,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 624,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  IMAC_JORGE:Electric Equipment Electricity Energy
+  IMPRESORA_JORGE:Electric Equipment Electricity Energy
+  TELEFONO_JORGE:Electric Equipment Electricity Energy
+  MONITORDELL_JORGE:Electric Equipment Electricity Energy
+  CPU_JORGE:Electric Equipment Electricity Energy
+  AGILENT_JORGE:Electric Equipment Electricity Energy
+  REGULADOR_JORGE:Electric Equipment Electricity Energy
+  IMAC_C2:Electric Equipment Electricity Energy
+  IMPRESORA1_C2:Electric Equipment Electricity Energy
+  TELEFONO_C2:Electric Equipment Electricity Energy
+  MONITORDELL_C2:Electric Equipment Electricity Energy
+  CPU_C2:Electric Equipment Electricity Energy
+  AGILENT_C2:Electric Equipment Electricity Energy
+  REGULADOR_C2:Electric Equipment Electricity Energy
+  IMAC_C1:Electric Equipment Electricity Energy
+  IMPRESORA_C1:Electric Equipment Electricity Energy
+  TELEFONO_C1:Electric Equipment Electricity Energy
+  MONITORDELL_C1:Electric Equipment Electricity Energy
+  CPU_C1:Electric Equipment Electricity Energy
+  AGILENT_C1:Electric Equipment Electricity Energy
+  REGULADOR_C1:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  IMAC_JORGE:Electric Equipment Electricity Energy
+  IMPRESORA_JORGE:Electric Equipment Electricity Energy
+  TELEFONO_JORGE:Electric Equipment Electricity Energy
+  MONITORDELL_JORGE:Electric Equipment Electricity Energy
+  CPU_JORGE:Electric Equipment Electricity Energy
+  AGILENT_JORGE:Electric Equipment Electricity Energy
+  REGULADOR_JORGE:Electric Equipment Electricity Energy
+  IMAC_C2:Electric Equipment Electricity Energy
+  IMPRESORA1_C2:Electric Equipment Electricity Energy
+  TELEFONO_C2:Electric Equipment Electricity Energy
+  MONITORDELL_C2:Electric Equipment Electricity Energy
+  CPU_C2:Electric Equipment Electricity Energy
+  AGILENT_C2:Electric Equipment Electricity Energy
+  REGULADOR_C2:Electric Equipment Electricity Energy
+  IMAC_C1:Electric Equipment Electricity Energy
+  IMPRESORA_C1:Electric Equipment Electricity Energy
+  TELEFONO_C1:Electric Equipment Electricity Energy
+  MONITORDELL_C1:Electric Equipment Electricity Energy
+  CPU_C1:Electric Equipment Electricity Energy
+  AGILENT_C1:Electric Equipment Electricity Energy
+  REGULADOR_C1:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:Zone:THERMAL ZONE: JORGE [J], ResourceType=Electricity, Group=Zone, contents are:
+  IMAC_JORGE:Electric Equipment Electricity Energy
+  IMPRESORA_JORGE:Electric Equipment Electricity Energy
+  TELEFONO_JORGE:Electric Equipment Electricity Energy
+  MONITORDELL_JORGE:Electric Equipment Electricity Energy
+  CPU_JORGE:Electric Equipment Electricity Energy
+  AGILENT_JORGE:Electric Equipment Electricity Energy
+  REGULADOR_JORGE:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  IMAC_JORGE:Electric Equipment Electricity Energy
+  IMPRESORA_JORGE:Electric Equipment Electricity Energy
+  TELEFONO_JORGE:Electric Equipment Electricity Energy
+  MONITORDELL_JORGE:Electric Equipment Electricity Energy
+  CPU_JORGE:Electric Equipment Electricity Energy
+  AGILENT_JORGE:Electric Equipment Electricity Energy
+  REGULADOR_JORGE:Electric Equipment Electricity Energy
+  IMAC_C2:Electric Equipment Electricity Energy
+  IMPRESORA1_C2:Electric Equipment Electricity Energy
+  TELEFONO_C2:Electric Equipment Electricity Energy
+  MONITORDELL_C2:Electric Equipment Electricity Energy
+  CPU_C2:Electric Equipment Electricity Energy
+  AGILENT_C2:Electric Equipment Electricity Energy
+  REGULADOR_C2:Electric Equipment Electricity Energy
+  IMAC_C1:Electric Equipment Electricity Energy
+  IMPRESORA_C1:Electric Equipment Electricity Energy
+  TELEFONO_C1:Electric Equipment Electricity Energy
+  MONITORDELL_C1:Electric Equipment Electricity Energy
+  CPU_C1:Electric Equipment Electricity Energy
+  AGILENT_C1:Electric Equipment Electricity Energy
+  REGULADOR_C1:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: JORGE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  IMAC_JORGE:Electric Equipment Electricity Energy
+  IMPRESORA_JORGE:Electric Equipment Electricity Energy
+  TELEFONO_JORGE:Electric Equipment Electricity Energy
+  MONITORDELL_JORGE:Electric Equipment Electricity Energy
+  CPU_JORGE:Electric Equipment Electricity Energy
+  AGILENT_JORGE:Electric Equipment Electricity Energy
+  REGULADOR_JORGE:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  IMAC_JORGE:Electric Equipment Electricity Energy
+  IMPRESORA_JORGE:Electric Equipment Electricity Energy
+  TELEFONO_JORGE:Electric Equipment Electricity Energy
+  MONITORDELL_JORGE:Electric Equipment Electricity Energy
+  CPU_JORGE:Electric Equipment Electricity Energy
+  AGILENT_JORGE:Electric Equipment Electricity Energy
+  REGULADOR_JORGE:Electric Equipment Electricity Energy
+  IMAC_C2:Electric Equipment Electricity Energy
+  IMPRESORA1_C2:Electric Equipment Electricity Energy
+  TELEFONO_C2:Electric Equipment Electricity Energy
+  MONITORDELL_C2:Electric Equipment Electricity Energy
+  CPU_C2:Electric Equipment Electricity Energy
+  AGILENT_C2:Electric Equipment Electricity Energy
+  REGULADOR_C2:Electric Equipment Electricity Energy
+  IMAC_C1:Electric Equipment Electricity Energy
+  IMPRESORA_C1:Electric Equipment Electricity Energy
+  TELEFONO_C1:Electric Equipment Electricity Energy
+  MONITORDELL_C1:Electric Equipment Electricity Energy
+  CPU_C1:Electric Equipment Electricity Energy
+  AGILENT_C1:Electric Equipment Electricity Energy
+  REGULADOR_C1:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:Zone:THERMAL ZONE: C2 1 [J], ResourceType=Electricity, Group=Zone, contents are:
+  IMAC_C2:Electric Equipment Electricity Energy
+  IMPRESORA1_C2:Electric Equipment Electricity Energy
+  TELEFONO_C2:Electric Equipment Electricity Energy
+  MONITORDELL_C2:Electric Equipment Electricity Energy
+  CPU_C2:Electric Equipment Electricity Energy
+  AGILENT_C2:Electric Equipment Electricity Energy
+  REGULADOR_C2:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C2 1 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  IMAC_C2:Electric Equipment Electricity Energy
+  IMPRESORA1_C2:Electric Equipment Electricity Energy
+  TELEFONO_C2:Electric Equipment Electricity Energy
+  MONITORDELL_C2:Electric Equipment Electricity Energy
+  CPU_C2:Electric Equipment Electricity Energy
+  AGILENT_C2:Electric Equipment Electricity Energy
+  REGULADOR_C2:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:Zone:THERMAL ZONE: C1 [J], ResourceType=Electricity, Group=Zone, contents are:
+  IMAC_C1:Electric Equipment Electricity Energy
+  IMPRESORA_C1:Electric Equipment Electricity Energy
+  TELEFONO_C1:Electric Equipment Electricity Energy
+  MONITORDELL_C1:Electric Equipment Electricity Energy
+  CPU_C1:Electric Equipment Electricity Energy
+  AGILENT_C1:Electric Equipment Electricity Energy
+  REGULADOR_C1:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: C1 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  IMAC_C1:Electric Equipment Electricity Energy
+  IMPRESORA_C1:Electric Equipment Electricity Energy
+  TELEFONO_C1:Electric Equipment Electricity Energy
+  MONITORDELL_C1:Electric Equipment Electricity Energy
+  CPU_C1:Electric Equipment Electricity Energy
+  AGILENT_C1:Electric Equipment Electricity Energy
+  REGULADOR_C1:Electric Equipment Electricity Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  THERMAL ZONE: C1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C1:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: C2:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C2:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: C2 1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C2 1:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: JORGE:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: JORGE:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  THERMAL ZONE: C1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C1:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: C2:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C2:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: C2 1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C2 1:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: JORGE:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: JORGE:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: C1 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: C1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C1:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  THERMAL ZONE: C1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C2:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C2 1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: JORGE:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: C1 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: C1:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  THERMAL ZONE: C1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C2:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C2 1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: JORGE:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  THERMAL ZONE: C1:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: C2:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: C2 1:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: JORGE:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: C1 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: C1:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  THERMAL ZONE: C1:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: C2:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: C2 1:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: JORGE:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: C2 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: C2:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C2:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: C2 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: C2:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: C2 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: C2:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: C2 1 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: C2 1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: C2 1:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: C2 1 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: C2 1:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: C2 1 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: C2 1:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: JORGE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: JORGE:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: JORGE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: JORGE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: JORGE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: JORGE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: JORGE:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: TECHADA_C1 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: TECHADA_C1 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: TECHADA_C1 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: TECHADA_C1:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: TECHADA_JORGE [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: TECHADA_JORGE [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: TECHADA_JORGE [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: TECHADA_JORGE:Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

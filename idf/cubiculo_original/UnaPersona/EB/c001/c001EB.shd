@@ -1,0 +1,452 @@
+Shadowing Combinations
+..Solar Distribution=FullExterior
+..In the following, only the first 10 reference surfaces will be shown.
+..But all surfaces are used in the calculations.
+==================================
+Surface=LABORATORIOS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-LABORATORIOS is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=25
+..Surface=PANELES
+..Surface=Mir-PANELES
+..Surface=NORTE_C1
+..Surface=SUR_C1
+..Surface=TN_C2
+..Surface=TS_C2
+..Surface=TA1_C2
+..Surface=TA3_C2
+..Surface=TT_C2
+..Surface=NORTE_C2
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PANELES is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=Mir-LABORATORIOS
+..Surface=TN_C2
+..Surface=TO_C2
+..Surface=TT_C2
+..Surface=TN_C1
+..Surface=TT_C1
+..Surface=TN_JORGE
+..Surface=TT_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-PANELES is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-LABORATORIOS
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ESTE_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=NORTE_C1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-LABORATORIOS
+..Surface=PANELES
+..Surface=TA1_C2
+..Surface=TA1_C1
+..Surface=TA1_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=VN_C1
+==================================
+Surface=VN_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=OESTE_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SUR_C1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-LABORATORIOS
+..Surface=PANELES
+..Surface=TA3_C2
+..Surface=TA3_C1
+..Surface=TA3_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=4
+....Surface=ALUMINIO_C1
+....Surface=PUERTA_C1
+....Surface=VSAB_C1
+....Surface=VSAR_C1
+==================================
+Surface=ALUMINIO_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PUERTA_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VSAB_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VSAR_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SUELO_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TECHO_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TE_C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TN_C2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-LABORATORIOS
+..Surface=PANELES
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=TVN_C2
+==================================
+Surface=TVN_C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TO_C2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=PANELES
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TS_C2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-LABORATORIOS
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TA1_C2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-LABORATORIOS
+..Surface=NORTE_C1
+..Surface=NORTE_C2
+..Surface=NORTE_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TA2__C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TA3_C2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-LABORATORIOS
+..Surface=SUR_C1
+..Surface=SUR_C2
+..Surface=SUR_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=TVS_C2
+==================================
+Surface=TVS_C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TT_C2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-LABORATORIOS
+..Surface=PANELES
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ESTE_C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=NORTE_C2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-LABORATORIOS
+..Surface=PANELES
+..Surface=TA1_C2
+..Surface=TA1_C1
+..Surface=TA1_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=VN_C2
+==================================
+Surface=VN_C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=OESTE_C2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=PANELES
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SUR_C2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-LABORATORIOS
+..Surface=PANELES
+..Surface=TA3_C2
+..Surface=TA3_C1
+..Surface=TA3_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=4
+....Surface=ALUMINIO_C2
+....Surface=PUERTA_C2
+....Surface=VSAB_C2
+....Surface=VSAR_C2
+==================================
+Surface=ALUMINIO_C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PUERTA_C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VSAB_C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VSAR_C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SUELO_C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TECHO_C2 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=ESTE_JORGE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-LABORATORIOS
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=NORTE_JORGE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-LABORATORIOS
+..Surface=PANELES
+..Surface=TA1_C2
+..Surface=TA1_C1
+..Surface=TA1_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=VN_JORGE
+==================================
+Surface=VN_JORGE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=OESTE_JORGE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SUR_JORGE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=Mir-LABORATORIOS
+..Surface=PANELES
+..Surface=TA3_C2
+..Surface=TA3_C1
+..Surface=TA3_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=4
+....Surface=ALUMINIO_JORGE
+....Surface=PUERTA_JORGE
+....Surface=VSAB_JORGE
+....Surface=VSAR_JORGE
+==================================
+Surface=ALUMINIO_JORGE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=PUERTA_JORGE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VSAB_JORGE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=VSAR_JORGE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SUELO_JORGE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TECHO_JORGE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TE_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TN_C1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-LABORATORIOS
+..Surface=PANELES
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=TVN_C1
+==================================
+Surface=TVN_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TO_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TS_C1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-LABORATORIOS
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TA1_C1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-LABORATORIOS
+..Surface=NORTE_C1
+..Surface=NORTE_C2
+..Surface=NORTE_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TA2_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TA3_C1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-LABORATORIOS
+..Surface=SUR_C1
+..Surface=SUR_C2
+..Surface=SUR_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=TVS_C1
+==================================
+Surface=TVS_C1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TT_C1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-LABORATORIOS
+..Surface=PANELES
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TE_JORGE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-LABORATORIOS
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TN_JORGE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-LABORATORIOS
+..Surface=PANELES
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=TVN_JORGE
+==================================
+Surface=TVN_JORGE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TO_JORGE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TS_JORGE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=Mir-LABORATORIOS
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TA1_JORGE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-LABORATORIOS
+..Surface=NORTE_C1
+..Surface=NORTE_C2
+..Surface=NORTE_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TA2_JORGE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TA3_JORGE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=Mir-LABORATORIOS
+..Surface=SUR_C1
+..Surface=SUR_C2
+..Surface=SUR_JORGE
+Number of back surfaces=0
+Number of receiving sub surfaces=1
+....Surface=TVS_JORGE
+==================================
+Surface=TVS_JORGE is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=TT_JORGE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=Mir-LABORATORIOS
+..Surface=PANELES
+Number of back surfaces=0
+Number of receiving sub surfaces=0
